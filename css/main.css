@@ -91,5 +91,47 @@ shapka
     text-decoration: none;
     border: none;
     cursor: pointer;
-    margin-top: 38px;
+    margin-top: 40px;
+}
+
+/*
+посты
+*/
+
+.posts {
+    margin-top: 72px;
+    margin-bottom: 15px;
+    background-color: #EDF7FA;
+}
+
+.posts__header {
+    overflow: hidden;
+
+}
+
+.posts__title {
+    float: left;
+    font-size: 22px;
+}
+
+.posts header a{
+    float: right;
+    text-decoration: none;
+    font-size: 16px;
+    color: #00A8CC;
+}
+
+.posts .wrapper {
+    padding-bottom: 32px;
+    padding-top: 20px;
+}
+
+.posts__cards {
+    overflow: hidden;
+}
+
+.posts__card {
+    width: calc(50% - 10px);
+    float: left;
+    margin-right: 20px;
 }
